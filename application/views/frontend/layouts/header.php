@@ -39,10 +39,10 @@
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
                      <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="<?php echo base_url(); ?>">Home</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="<?php echo site_url('home/about');?>">About</a>
                      </li>
                      <li class="nav-item">
                         <a class="nav-link" href="property.html">Property</a>
@@ -54,7 +54,7 @@
                         <a class="nav-link" href="blog.html">Blog</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
+                        <a class="nav-link" href="<?php echo site_url('home/contact');?>">Contact Us</a>
                      </li>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
@@ -68,3 +68,4 @@
                </div>
             </nav>
          </div>
+	
