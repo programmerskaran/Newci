@@ -18,7 +18,7 @@
 						<div class="row">
 							<div class="col-md-4">
 								<div class="container_main">
-									<img src="images/img-1.png" alt="" class="image">
+									<img src="<?php echo base_url();?>assets/images/img-1.png" alt="" class="image">
 									<div class="overlay">
 										<div class="text">
 											<div class="some_text"><a href="#">See More</a></div>
@@ -28,7 +28,7 @@
 							</div>
 							<div class="col-md-4">
 								<div class="container_main">
-									<img src="images/img-2.png" alt="" class="image">
+									<img src="<?php echo base_url();?>assets/images/img-2.png" alt="" class="image">
 									<div class="overlay">
 										<div class="text">
 											<div class="some_text"><a href="#">See More</a></div>
@@ -38,43 +38,7 @@
 							</div>
 							<div class="col-md-4">
 								<div class="container_main">
-									<img src="images/img-3.png" alt="" class="image">
-									<div class="overlay">
-										<div class="text">
-											<div class="some_text"><a href="#">See More</a></div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<div class="feature_section_2">
-						<div class="row">
-							<div class="col-md-4">
-								<div class="container_main">
-									<img src="images/img-1.png" alt="" class="image">
-									<div class="overlay">
-										<div class="text">
-											<div class="some_text"><a href="#">See More</a></div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="container_main">
-									<img src="images/img-2.png" alt="" class="image">
-									<div class="overlay">
-										<div class="text">
-											<div class="some_text"><a href="#">See More</a></div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="container_main">
-									<img src="images/img-3.png" alt="" class="image">
+									<img src="<?php echo base_url();?>assets/images/img-3.png" alt="" class="image">
 									<div class="overlay">
 										<div class="text">
 											<div class="some_text"><a href="#">See More</a></div>
@@ -90,7 +54,7 @@
 						<div class="row">
 							<div class="col-md-4">
 								<div class="container_main">
-									<img src="images/img-1.png" alt="" class="image">
+									<img src="<?php echo base_url();?>assets/images/img-1.png" alt="" class="image">
 									<div class="overlay">
 										<div class="text">
 											<div class="some_text"><a href="#">See More</a></div>
@@ -100,7 +64,7 @@
 							</div>
 							<div class="col-md-4">
 								<div class="container_main">
-									<img src="images/img-2.png" alt="" class="image">
+									<img src="<?php echo base_url();?>assets/images/img-2.png" alt="" class="image">
 									<div class="overlay">
 										<div class="text">
 											<div class="some_text"><a href="#">See More</a></div>
@@ -110,7 +74,43 @@
 							</div>
 							<div class="col-md-4">
 								<div class="container_main">
-									<img src="images/img-3.png" alt="" class="image">
+									<img src="<?php echo base_url();?>assets/images/img-3.png" alt="" class="image">
+									<div class="overlay">
+										<div class="text">
+											<div class="some_text"><a href="#">See More</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="feature_section_2">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="container_main">
+									<img src="<?php echo base_url();?>assets/images/img-1.png" alt="" class="image">
+									<div class="overlay">
+										<div class="text">
+											<div class="some_text"><a href="#">See More</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="container_main">
+									<img src="<?php echo base_url();?>assets/images/img-2.png" alt="" class="image">
+									<div class="overlay">
+										<div class="text">
+											<div class="some_text"><a href="#">See More</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="container_main">
+									<img src="<?php echo base_url();?>assets/images/img-3.png" alt="" class="image">
 									<div class="overlay">
 										<div class="text">
 											<div class="some_text"><a href="#">See More</a></div>
