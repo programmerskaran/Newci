@@ -1058,8 +1058,8 @@ textarea#comment::placeholder {
     float: left;
 }
 
-.send_bt a {
-    width: 100%;
+.send_bt {
+    /* width: 100%; */
     text-align: center;
     font-size: 18px;
     color: #ffffff;
@@ -1072,11 +1072,11 @@ textarea#comment::placeholder {
     border-radius: 5px;
 }
 
-.send_bt a:hover {
+.send_bt :hover {
     color: #fff;
     background-color: #252525;
 }
-.send_bt.active a {
+.send_bt.active  {
     color: #ffffff;
     background-color: #252525;
 }

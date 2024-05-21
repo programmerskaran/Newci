@@ -32,7 +32,7 @@
       <div class="header_section">
          <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <a class="navbar-brand" href="index.html"><img src="<?php echo base_url(); ?>assets/images/logo.png"></a>
+               <a class="navbar-brand" href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/logo.png"></a>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
                </button>
@@ -45,13 +45,13 @@
                         <a class="nav-link" href="<?php echo site_url('home/about');?>">About</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="property.html">Property</a>
+                        <a class="nav-link" href="<?php echo site_url('home/properties');?>">Property</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="testimonial.html">Testimonial</a>
+                        <a class="nav-link" href="<?php echo site_url('home/testimonial');?>">Testimonial</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
+                        <a class="nav-link" href="<?php echo site_url('home/blog');?>">Blog</a>
                      </li>
                      <li class="nav-item">
                         <a class="nav-link" href="<?php echo site_url('home/contact');?>">Contact Us</a>
