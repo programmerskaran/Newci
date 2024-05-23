@@ -24739,3 +24739,6 @@ select.tabulator-page-size option{
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 }
+.alert-danger{
+	background-color: rgb(253, 143, 143);
+}

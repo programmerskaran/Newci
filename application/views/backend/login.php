@@ -29,8 +29,8 @@
 	<!-- ========== MAIN CONTENT ========== -->
 	<main id="content" class="w-full max-w-md mx-auto p-6">
 		<a href="index.html" class="header-logo">
-			<img src="<?php echo base_url(); ?>dist/assets/img/brand-logos/desktop-logo.png" alt="logo"
-				class="mx-auto block dark:hidden">
+			<!-- <img src="<?php //echo base_url(); ?>dist/assets/img/brand-logos/desktop-logo.png" alt="logo"
+				class="mx-auto block dark:hidden"> -->
 			<img src="<?php echo base_url(); ?>dist/assets/img/brand-logos/desktop-dark.png" alt="logo"
 				class="mx-auto hidden dark:block">
 		</a>
@@ -42,9 +42,15 @@
 				</div>
 
 				<div class="mt-5">
+			
+					
 					<?php if ($this->session->flashdata('error')): ?>
+						<div class="alert alert-danger" role="alert">
 						<p><?php echo $this->session->flashdata('error'); ?></p>
+						</div>
+
 					<?php endif; ?>
+					
 					<form action="<?php echo base_url('admin/login_action'); ?>" method="post">
 						<!-- Form -->
 						<div>
